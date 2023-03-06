@@ -16,10 +16,12 @@
 		262641AE2988080E005303E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262641AD2988080E005303E1 /* Assets.xcassets */; };
 		262641B12988080E005303E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262641B02988080E005303E1 /* Preview Assets.xcassets */; };
 		2643AA962993F112002D1AA1 /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643AA952993F112002D1AA1 /* PostArrayObject.swift */; };
+		26AB31FC29B6290600EBBD56 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AB31FB29B6290600EBBD56 /* CarouselView.swift */; };
 		26D037C12993BDB80060D5B3 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D037C02993BDB80060D5B3 /* PostModel.swift */; };
 		26D408E32994DFC200597B2F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E22994DFC200597B2F /* CommentsView.swift */; };
 		26D408E5299522EC00597B2F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E4299522EC00597B2F /* MessageView.swift */; };
 		26D408E7299526C400597B2F /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E6299526C400597B2F /* CommentModel.swift */; };
+		26FFD8FC29B5FE0A00063088 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FFD8FB29B5FE0A00063088 /* BrowseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +35,12 @@
 		262641AD2988080E005303E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262641B02988080E005303E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2643AA952993F112002D1AA1 /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		26AB31FB29B6290600EBBD56 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		26D037C02993BDB80060D5B3 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		26D408E22994DFC200597B2F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		26D408E4299522EC00597B2F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		26D408E6299526C400597B2F /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		26FFD8FB29B5FE0A00063088 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				262641AB2988080D005303E1 /* ContentView.swift */,
 				260BC91629882546000C491E /* FeedView.swift */,
 				26D408E22994DFC200597B2F /* CommentsView.swift */,
+				26FFD8FB29B5FE0A00063088 /* BrowseView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -75,6 +80,7 @@
 			children = (
 				260BC918298917E2000C491E /* PostView.swift */,
 				26D408E4299522EC00597B2F /* MessageView.swift */,
+				26AB31FB29B6290600EBBD56 /* CarouselView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 				260BC91529881E6B000C491E /* Extensions.swift in Sources */,
 				2643AA962993F112002D1AA1 /* PostArrayObject.swift in Sources */,
 				260BC919298917E2000C491E /* PostView.swift in Sources */,
+				26FFD8FC29B5FE0A00063088 /* BrowseView.swift in Sources */,
 				26D408E7299526C400597B2F /* CommentModel.swift in Sources */,
 				26D408E32994DFC200597B2F /* CommentsView.swift in Sources */,
+				26AB31FC29B6290600EBBD56 /* CarouselView.swift in Sources */,
 				262641AA2988080D005303E1 /* ToyGramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
