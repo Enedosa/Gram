@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BrowseView: View {
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false, content: {Text("Placeholder")
+        ScrollView(.vertical, showsIndicators: false, content: { CarouselView()
             
         })
             .navigationBarTitle("Browse")

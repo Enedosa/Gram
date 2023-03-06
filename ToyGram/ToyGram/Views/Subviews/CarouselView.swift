@@ -8,35 +8,50 @@
 import SwiftUI
 
 struct CarouselView: View {
+    
+    @State var selection: Int = 1
+    let ImageCount = 8
+    @State var isTimerAdded : Bool = false
+    
     var body: some View {
-        TabView(selection: .constant(1), content: {
-            Image("dog1")
-                .resizable()
-                .scaledToFit()
-                .tag(0)
-            Image("dog2")
-                .resizable()
-                .scaledToFit()
-                .tag(2)
-            Image("dog3")
-                .resizable()
-                .scaledToFit()
-                .tag(3)
-            Image("dog4")
-                .resizable()
-                .scaledToFit()
-                .tag(4)
-            Image("dog5")
-                .resizable()
-                .scaledToFit()
-                .tag(5)
-            Text("Tab Content 2").tabItem {
-                Text("Tab Label 2").tag(2)
+        TabView(selection: $selection, content: {
+            
+            ForEach(1..<ImageCount) { count in
+                Image("dog\(count)")
+                    .resizable()
+                    .scaledToFit()
+                    .tag(count)
             }
+            
+//            Text("Tab Content 2").tabItem {
+//                Text("Tab Label 2").tag(2)
+//            }
         })
         .tabViewStyle(PageTabViewStyle())
-        .background(Color.red)
+//        .background(Color.red)
         .frame(height: 300)
+        .animation(.default)
+        .onAppear {
+            if !isTimerAdded {
+                addTimer()
+            }
+           
+        }
+    }
+    
+    // MARK: FUNCTIONS
+    
+    func addTimer() {
+        isTimerAdded = true
+        let timer = Timer.scheduledTimer(withTimeInterval: 4.0, repeats: true) { Timer in
+            if selection == (ImageCount - 1) {
+                selection = 1
+            } else {
+                selection += 1
+            }
+           
+        }
+        timer.fire()
     }
 }
 
