@@ -10,7 +10,7 @@ import SwiftUI
 struct CarouselView: View {
     
     @State var selection: Int = 1
-    let ImageCount = 8
+    @State var ImageCount: Int = 8
     @State var isTimerAdded : Bool = false
     
     var body: some View {

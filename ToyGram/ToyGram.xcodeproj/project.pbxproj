@@ -21,6 +21,7 @@
 		26D408E32994DFC200597B2F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E22994DFC200597B2F /* CommentsView.swift */; };
 		26D408E5299522EC00597B2F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E4299522EC00597B2F /* MessageView.swift */; };
 		26D408E7299526C400597B2F /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D408E6299526C400597B2F /* CommentModel.swift */; };
+		26E23C7B2A0909C20035D18E /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E23C7A2A0909C20035D18E /* ImageGridView.swift */; };
 		26FFD8FC29B5FE0A00063088 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FFD8FB29B5FE0A00063088 /* BrowseView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		26D408E22994DFC200597B2F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		26D408E4299522EC00597B2F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		26D408E6299526C400597B2F /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		26E23C7A2A0909C20035D18E /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		26FFD8FB29B5FE0A00063088 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				260BC918298917E2000C491E /* PostView.swift */,
 				26D408E4299522EC00597B2F /* MessageView.swift */,
 				26AB31FB29B6290600EBBD56 /* CarouselView.swift */,
+				26E23C7A2A0909C20035D18E /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				26D408E5299522EC00597B2F /* MessageView.swift in Sources */,
 				260BC91529881E6B000C491E /* Extensions.swift in Sources */,
 				2643AA962993F112002D1AA1 /* PostArrayObject.swift in Sources */,
+				26E23C7B2A0909C20035D18E /* ImageGridView.swift in Sources */,
 				260BC919298917E2000C491E /* PostView.swift in Sources */,
 				26FFD8FC29B5FE0A00063088 /* BrowseView.swift in Sources */,
 				26D408E7299526C400597B2F /* CommentModel.swift in Sources */,
@@ -351,7 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToyGram/Preview Content\"";
-				DEVELOPMENT_TEAM = U6TAP55WGJ;
+				DEVELOPMENT_TEAM = C35WAJESWR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -384,7 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToyGram/Preview Content\"";
-				DEVELOPMENT_TEAM = U6TAP55WGJ;
+				DEVELOPMENT_TEAM = C35WAJESWR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

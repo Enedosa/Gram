@@ -14,8 +14,9 @@ struct FeedView: View {
         ScrollView {
             LazyVStack {
                 ForEach(posts.dataArray, id: \.self) {
-                    post in PostView(post: post)
+                    post in PostView(post: post, showHeaderAndFooter: true)
                 }
+    //this lazy in the lazyVstack makes sure only the posts currently on the screen are loading not all the posts fetched at the same time thus maintains efficiency
             }
 //            PostView()
            
