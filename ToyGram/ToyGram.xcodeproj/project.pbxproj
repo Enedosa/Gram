@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2609AE942A77C17F00CD1308 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AE932A77C17F00CD1308 /* UploadView.swift */; };
+		2609AE962A77C85200CD1308 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AE952A77C85100CD1308 /* ImagePicker.swift */; };
 		260BC90F2988106C000C491E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BC90E2988106C000C491E /* LaunchScreen.storyboard */; };
 		260BC91529881E6B000C491E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91429881E6B000C491E /* Extensions.swift */; };
 		260BC91729882546000C491E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91629882546000C491E /* FeedView.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2609AE932A77C17F00CD1308 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		2609AE952A77C85100CD1308 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		260BC90E2988106C000C491E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260BC91429881E6B000C491E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		260BC91629882546000C491E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				26D408E4299522EC00597B2F /* MessageView.swift */,
 				26AB31FB29B6290600EBBD56 /* CarouselView.swift */,
 				26E23C7A2A0909C20035D18E /* ImageGridView.swift */,
+				2609AE952A77C85100CD1308 /* ImagePicker.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				26D408E7299526C400597B2F /* CommentModel.swift in Sources */,
 				26D408E32994DFC200597B2F /* CommentsView.swift in Sources */,
 				2609AE942A77C17F00CD1308 /* UploadView.swift in Sources */,
+				2609AE962A77C85200CD1308 /* ImagePicker.swift in Sources */,
 				26AB31FC29B6290600EBBD56 /* CarouselView.swift in Sources */,
 				262641AA2988080D005303E1 /* ToyGramApp.swift in Sources */,
 			);
@@ -363,6 +367,8 @@
 				DEVELOPMENT_TEAM = U6TAP55WGJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camre at the user's request to take a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allows the app to access your photo library to import or save a photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -398,6 +404,8 @@
 				DEVELOPMENT_TEAM = U6TAP55WGJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camre at the user's request to take a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allows the app to access your photo library to import or save a photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
