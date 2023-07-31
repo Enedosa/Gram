@@ -26,7 +26,7 @@ struct ImageGridView: View {
                     ForEach(posts.dataArray, id: \.self, content: {
                         post in
                         NavigationLink {
-                            FeedView(posts: PostArrayObject(post: post))
+                            FeedView(posts: PostArrayObject(post: post), title: "Post")
                         } label: {
                             PostView(post: post, showHeaderAndFooter: false)
                         }
