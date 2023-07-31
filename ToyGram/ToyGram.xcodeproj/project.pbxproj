@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2609AE942A77C17F00CD1308 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AE932A77C17F00CD1308 /* UploadView.swift */; };
 		260BC90F2988106C000C491E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BC90E2988106C000C491E /* LaunchScreen.storyboard */; };
 		260BC91529881E6B000C491E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91429881E6B000C491E /* Extensions.swift */; };
 		260BC91729882546000C491E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91629882546000C491E /* FeedView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2609AE932A77C17F00CD1308 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		260BC90E2988106C000C491E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260BC91429881E6B000C491E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		260BC91629882546000C491E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				260BC91629882546000C491E /* FeedView.swift */,
 				26D408E22994DFC200597B2F /* CommentsView.swift */,
 				26FFD8FB29B5FE0A00063088 /* BrowseView.swift */,
+				2609AE932A77C17F00CD1308 /* UploadView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				26FFD8FC29B5FE0A00063088 /* BrowseView.swift in Sources */,
 				26D408E7299526C400597B2F /* CommentModel.swift in Sources */,
 				26D408E32994DFC200597B2F /* CommentsView.swift in Sources */,
+				2609AE942A77C17F00CD1308 /* UploadView.swift in Sources */,
 				26AB31FC29B6290600EBBD56 /* CarouselView.swift in Sources */,
 				262641AA2988080D005303E1 /* ToyGramApp.swift in Sources */,
 			);
