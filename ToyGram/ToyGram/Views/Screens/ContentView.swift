@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-                FeedView(posts: PostArrayObject(), title: "FEED VIEW")
+                FeedView(posts: PostArrayObject(), title: "Feed View")
             }
                 .tabItem {
                     Image(systemName: "book.fill")
@@ -29,7 +29,10 @@ struct ContentView: View {
                     Image(systemName: "square.and.arrow.up.fill")
                     Text("Upload")
                 }
-            Text("Screen 1")
+            NavigationView {
+                ProfileView()
+            }
+           
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Profile")
