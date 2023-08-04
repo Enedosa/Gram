@@ -12,6 +12,9 @@
 		2609AE982A77F1C900CD1308 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AE972A77F1C900CD1308 /* PostImageView.swift */; };
 		2609AEA22A7B7DAC00CD1308 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AEA12A7B7DAC00CD1308 /* ProfileView.swift */; };
 		2609AEA42A7B80A200CD1308 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AEA32A7B80A200CD1308 /* ProfileHeader.swift */; };
+		2609AEA62A7D198400CD1308 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AEA52A7D198400CD1308 /* SettingsView.swift */; };
+		2609AEA82A7D1E2D00CD1308 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AEA72A7D1E2D00CD1308 /* SettingsLabelView.swift */; };
+		2609AEAA2A7D25DA00CD1308 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2609AEA92A7D25DA00CD1308 /* SettingsRowView.swift */; };
 		260BC90F2988106C000C491E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BC90E2988106C000C491E /* LaunchScreen.storyboard */; };
 		260BC91529881E6B000C491E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91429881E6B000C491E /* Extensions.swift */; };
 		260BC91729882546000C491E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC91629882546000C491E /* FeedView.swift */; };
@@ -36,6 +39,9 @@
 		2609AE972A77F1C900CD1308 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
 		2609AEA12A7B7DAC00CD1308 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2609AEA32A7B80A200CD1308 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		2609AEA52A7D198400CD1308 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2609AEA72A7D1E2D00CD1308 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		2609AEA92A7D25DA00CD1308 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		260BC90E2988106C000C491E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260BC91429881E6B000C491E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		260BC91629882546000C491E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 				2609AE972A77F1C900CD1308 /* PostImageView.swift */,
 				2609AEA12A7B7DAC00CD1308 /* ProfileView.swift */,
 				2609AEA32A7B80A200CD1308 /* ProfileHeader.swift */,
+				2609AEA52A7D198400CD1308 /* SettingsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -99,6 +106,8 @@
 				26AB31FB29B6290600EBBD56 /* CarouselView.swift */,
 				26E23C7A2A0909C20035D18E /* ImageGridView.swift */,
 				2609AE952A77C85100CD1308 /* ImagePicker.swift */,
+				2609AEA72A7D1E2D00CD1308 /* SettingsLabelView.swift */,
+				2609AEA92A7D25DA00CD1308 /* SettingsRowView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				260BC91729882546000C491E /* FeedView.swift in Sources */,
 				26D037C12993BDB80060D5B3 /* PostModel.swift in Sources */,
+				2609AEA82A7D1E2D00CD1308 /* SettingsLabelView.swift in Sources */,
 				2609AE982A77F1C900CD1308 /* PostImageView.swift in Sources */,
 				262641AC2988080D005303E1 /* ContentView.swift in Sources */,
 				26D408E5299522EC00597B2F /* MessageView.swift in Sources */,
@@ -247,6 +257,8 @@
 				26AB31FC29B6290600EBBD56 /* CarouselView.swift in Sources */,
 				2609AEA22A7B7DAC00CD1308 /* ProfileView.swift in Sources */,
 				262641AA2988080D005303E1 /* ToyGramApp.swift in Sources */,
+				2609AEA62A7D198400CD1308 /* SettingsView.swift in Sources */,
+				2609AEAA2A7D25DA00CD1308 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
